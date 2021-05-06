@@ -1,0 +1,106 @@
+header{
+
+    font-family: 'Montez', cursive; 
+    color: blue;
+    padding: 1%;
+ 
+    
+
+
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #ffeedd;
+   
+}
+
+#id1
+{
+    float: left;
+    font-size: 200%;
+}
+
+#id2
+{
+    float: right;
+}
+
+.name
+{
+    
+    width: 15%;
+    justify-content:space-between;
+    background-color: white;
+    border-left: hidden;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+
+.content
+{
+
+    width: 90%;
+    background-color: rgb(194, 190, 190);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 5%;
+    overflow:hidden;
+    
+
+
+
+    
+
+    
+
+
+
+}
+
+#id3{
+    font-family: 'Ubuntu Mono', monospace;
+    color: black;
+}
+
+.board
+{
+   margin-top: 2%;
+   width:45%;
+  
+   height: 20vh;
+  
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+   
+    
+
+
+
+
+   
+   
+   
+  
+  
+    
+
+}
+
+.container
+{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.pointer {
+    cursor: pointer;
+  }
+
