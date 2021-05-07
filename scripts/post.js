@@ -82,7 +82,8 @@ function addComment()
     console.log(comment);
     var template='<div class="check">' + '<p class="comment-style">'+ comment + '</p>' +'</div>';
     console.log(template);
-    document.getElementById("allcomments").innerHTML+=template;
+    var text2=document.getElementById("allcomments").innerHTML;
+    document.getElementById("allcomments").innerHTML=template+text2;
     document.getElementById("comment").value="";
     document.getElementById("comment").setAttribute("placeholder","Leave a comment...");
     
