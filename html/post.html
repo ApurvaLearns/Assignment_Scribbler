@@ -47,14 +47,16 @@
       
 
     </div>
-    <div id="author">
+    <br>
+    <div id="layer2">
+    <span id="author">
       
-    </div>
+    </span>
 
-    <div id="edit">
+    <span id="edit">
         <button type="button" class="btn btn-danger" onclick="editContent()" id="editbutton">Edit <i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>   
-        </div>
-
+    </span>
+    </div>
      <br>
      <br>
     <div id="matter">
@@ -73,7 +75,90 @@
     <button type="button" class="btn btn-danger" onclick="addComment()" id="commentbutton" style="margin-left: 3%;">Comment</button>
     <br>
     <br>
-    <div id="allcomments" style="font-size: small; font-weight: bold; margin-left: 3%;">All Comments</div>
+    <div id="allcomments1" style="font-size: small; font-weight: bold; margin-left: 3%;">All Comments</div>
+    <div id="allcomments" style=" margin-left: 3%;" ></div>
+
+
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Get Started</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <form>
+                            <div class="form-group">
+                              <label for="name">Name</label>
+                              <input type="text" class="form-control" id="name"  placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                              <label for="username">Username</label>
+                              <input type="text" class="form-control" id="username" placeholder="Enter your username" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="confirm">Confirm Password</label>
+                                <input type="password" class="form-control" id="confirm" placeholder="Re-enter your password" required>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary" style="background-color: green; width: 100%" >Sign Up</button>
+                            
+                            
+                          </form>
+            </div>
+            <div class="modal-footer">
+              
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Welcome Back!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <form>
+                            <div class="form-group">
+                              <label for="name">Username</label>
+                              <input type="text" class="form-control" id="name"  placeholder="Enter your username" required>
+                            </div>
+                           
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                            </div>
+                            
+                            <div class="form-group">
+                            <button type="submit" class="btn btn-primary" style="background-color: green; width: 100%" >Sign In</button>
+                        </div>
+                                <label style="width: 100%; text-align: center; font-size: 75%; font-weight: bold;">Not a member?<a href="#" data-toggle="modal" data-target="#signupModal" data-dismiss="modal">Sign Up</a></label>
+                            
+                            
+                            
+                          </form>
+            </div>
+            <div class="modal-footer">
+              
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+
+
 
 
     <script src="../scripts/post.js"></script>
