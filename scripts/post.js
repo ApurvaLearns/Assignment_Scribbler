@@ -13,7 +13,7 @@ function showContents()
     document.getElementById("matter").innerHTML=text3;
 }
 
-function editContent()
+function editContent()  //For editing the content
 {
 
     var text1=document.getElementById("editbutton").innerHTML;
@@ -46,7 +46,7 @@ function editContent()
 
 }
 
-function likeContent()
+function likeContent()  //To increment the count once like is pressed
 {
     var value=document.getElementById("likebutton").innerHTML;
     console.log(value);
@@ -76,7 +76,7 @@ function likeContent()
 
 }
 
-function addComment()
+function addComment()  // To add  comments to posts
 {
     var comment= document.getElementById("comment").value;
     console.log(comment);

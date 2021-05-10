@@ -1,4 +1,4 @@
-function deleteBoard1()
+function deleteBoard1()  /*  Function for deleting card 1 */
 {
 
     console.log("Inside This");
@@ -6,7 +6,7 @@ function deleteBoard1()
     obj.remove();
 }
 
-function deleteBoard2()
+function deleteBoard2()   /*  Function for deleting card 2 */
 {
 
     console.log("Inside This");
@@ -14,7 +14,7 @@ function deleteBoard2()
     obj.remove();
 }
 
-function deleteBoard3()
+function deleteBoard3()    /*  Function for deleting card 3 */
 {
 
     console.log("Inside This");
@@ -22,7 +22,7 @@ function deleteBoard3()
     obj.remove();
 }
 
-function deleteBoard4()
+function deleteBoard4()   /*  Function for deleting card 4 */
 {
 
     console.log("Inside This");
@@ -30,7 +30,7 @@ function deleteBoard4()
     obj.remove();
 }
 
-function deleteBoard5()
+function deleteBoard5()   /*  Function for deleting card 5 */
 {
     console.log("Inside This");
     var obj=document.getElementById("board5");
@@ -38,7 +38,7 @@ function deleteBoard5()
 }
 
 
-function createPost1()
+function createPost1()  // To display complete post
 {
 
     sessionStorage.setItem("name","Srishti Gupta");
@@ -48,7 +48,7 @@ function createPost1()
 
 }
 
-function createPost2()
+function createPost2()  // To display complete post
 {
 
     sessionStorage.setItem("name","Colby Fayock");
@@ -58,7 +58,7 @@ function createPost2()
 
 }
 
-function createPost3()
+function createPost3()  // To display complete post
 {
 
     sessionStorage.setItem("name","Yazeed Bzadough");
@@ -68,7 +68,7 @@ function createPost3()
 
 }
 
-function createPost4()
+function createPost4()  // To display complete post
 {
 
     sessionStorage.setItem("name","Cedd Burge");
@@ -78,7 +78,7 @@ function createPost4()
 
 }
 
-function createPost5()
+function createPost5()  // To display complete post
 {
 
     sessionStorage.setItem("name","Srishti Gupta");

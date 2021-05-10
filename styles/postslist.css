@@ -1,3 +1,5 @@
+/*  Styling for  Header  section */
+
 header{
 
     font-family: 'Montez', cursive; 
@@ -27,7 +29,7 @@ body {
     float: right;
 }
 
-.name
+.name   /*  Styling for  Author n of the posts */
 {
     
     width: fit-content;
@@ -39,7 +41,7 @@ body {
     
 }
 
-.content
+.content  /*  Styling for  content of the posts */
 {
 
     width: 90%;
@@ -66,7 +68,7 @@ body {
     color: black;
 }
 
-.board
+.board   /*  Styling for  each card of the posts */
 {
    margin-top: 2%;
    width:45%;
@@ -92,7 +94,7 @@ body {
 
 }
 
-.container
+.container  /*  Styling for  overall container*/
 {
 
     display: flex;
@@ -101,7 +103,7 @@ body {
     justify-content: space-evenly;
 }
 
-
+/*  To change the cursor poiner */
 .pointer {
     cursor: pointer;
   }
@@ -118,6 +120,7 @@ body {
   }
 
 
+  /*  Styling for Hover  for shadow creation */
   .board:hover{
 
    
